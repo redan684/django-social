@@ -5,7 +5,7 @@ from django.http import Http404
 from django.views import generic
 
 # pip install django-braces
-from .views import SelectRelatedMixin
+from braces.views import SelectRelatedMixin
 
 from . import forms
 from . import models
